@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("imagens/fundo2.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+main {
+  padding: 20px;
+  color: #333;
+}
+
+.botao-principal {
+  background-color: #ffb549;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 95px;
+}
+
+.formulario-pasta {
+  margin-top: 20px;
+  width: 150px;
+  margin-left: 95px;
+}
+
+#listaPastas .pasta {
+  margin-top: 100 px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 95px;
+}
+
+.tarefa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 5px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.botoes-pasta {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.botao-icone {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.oculto {
+  display: none;
+}
+
+body.concluido {
+  background: url("imagens/fundo2.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mensagem-final {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+
+.mensagem-final h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Container do título da pasta: título + botão excluir lado a lado */
+.titulo-pasta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botão excluir pasta menor e alinhado */
+.botao-icone {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  padding: 0 6px;
+  color: #ff4d4d;
+}
+
+/* Container dos botões da tarefa alinhados na mesma linha do input */
+.botoes-tarefa {
+  display: inline-flex;
+  gap: 5px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.btn-header {
+  color: #000000;
+  padding: 8px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-left: 30px;
+}
+
+.btn-header:hover {
+  background-color: #e89c2a;
+}
+
+/* Input de tarefa e botões na mesma linha */
+.input-tarefa {
+  padding: 6px 8px;
+  font-size: 1em;
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+}

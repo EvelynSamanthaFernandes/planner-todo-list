@@ -1,0 +1,61 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.tela-dividida {
+  display: flex;
+  flex-direction: column;
+  height: 160vh;
+}
+
+.metade-superior {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.imagem-topo {
+  max-width: 160%;
+  max-height: 160%;
+  object-fit: contain;
+}
+
+.metade-inferior {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+
+.metade-inferior h1 {
+  font-size: 1.8em;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.4;
+}
+
+.btn-comecar {
+  margin-top: 20px;
+  padding: 14px 28px;
+  background-color: #ffb549;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-comecar:hover {
+  background-color: #e89e35;
+}

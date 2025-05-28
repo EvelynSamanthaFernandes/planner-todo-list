@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planner de Tarefas</title>
+    <link rel="stylesheet" href="tarefas.css" />
+  </head>
+  <body>
+    <header class="menu">
+      <a href="index.html" class="btn-header"> Início </a>
+      <a href="oque.html" class="btn-header">O que é?</a>
+    </header>
+
+    <main>
+      <button id="mostrarFormularioPasta" class="botao-principal">
+        Nova Pasta
+      </button>
+
+      <div id="formularioPasta" class="formulario-pasta oculto">
+        <input type="text" id="nomePasta" placeholder="Nome da nova pasta" />
+        <button id="criarPasta">Criar</button>
+      </div>
+
+      <div id="listaPastas"></div>
+    </main>
+
+    <script src="tarefas.js"></script>
+  </body>
+</html>

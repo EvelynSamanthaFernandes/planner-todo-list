@@ -1,0 +1,53 @@
+.oque-body {
+  font-family: Arial, sans-serif;
+  background: url("imagens/fundo2.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  gap: 20px;
+}
+
+.header a {
+  color: #ffffff;
+  background-color: #ffb549;
+  padding: 8px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.header a:hover {
+  background-color: #e89c2a;
+}
+
+.oque-section {
+  min-height: 100vh;
+  padding: 120px 30px 80px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.oque-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
