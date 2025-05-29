@@ -45,3 +45,9 @@ listadetarefas/
    C:\xampp\htdocs\
 3. No navegador, acesse:
    http://localhost/listadetarefas/index.html
+
+# To-do List - Planner
+
+Projeto simples de lista de tarefas.
+
+Você pode ver o projeto funcionando aqui: [To-do List no Netlify](https://helpful-starship-e3d51a.netlify.app/)
